@@ -1,7 +1,13 @@
-
+body{
+  background-image: url("../images/Night.jpg");
+  background-size: cover;
+}
 .top_menu{
-	background:blue;
+	background-color: #2471a3;
 	color: white;
+  width: auto;
+  font-size: 40px;
+  font-family: fantasy;
 }
 .header{
   	background-color: green;
@@ -9,3 +15,9 @@
   	padding: 15px;
   	text-align:center;
   }
+.div1{
+  float:left;
+  background-color: #76d7c4;
+  width: auto;
+  color=""
+}
