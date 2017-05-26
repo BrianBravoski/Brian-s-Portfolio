@@ -7,7 +7,7 @@ body{
 	color: white;
   width: auto;
   font-size: 40px;
-  font-family: sans-serif;
+  font-family: Kumar One;
 }
 .header{
   	background-color: green;
@@ -15,14 +15,28 @@ body{
   	padding: 15px;
   	text-align:center;
   }
-.row{
-  float:right;
-  background-color: #76d7c4;
-  width: 50%;
-  color="";
+.row1{
+
+  background-image: url("../images/thunder.jpg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: auto;
+  width:60%;
+  color: white;
   font-size: 20px;
 }
 .eve{
   float: left;
 
+}
+.row{
+  width: 50%;
+  background-image:url("../images/thunder.jpg");
+  background-size:cover;
+  color: red  ;
+  font-size: 30px;
+}
+.bean{
+  float: right;
+  
 }
