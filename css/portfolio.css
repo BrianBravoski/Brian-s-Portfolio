@@ -1,5 +1,5 @@
 body{
-  background-image: url("../images/Night.jpg");
+  background-image: url("../images/giphy.gif");
   background-size: cover;
 }
 .top_menu{
@@ -7,13 +7,14 @@ body{
 	color: white;
   width: auto;
   font-size: 40px;
-  font-family: Kumar One;
+  font-family: sans-serif;
 }
 .header{
   	background-color: green;
   	border-bottom: 1px solid gray;
   	padding: 15px;
   	text-align:center;
+    font-size: 40px;
   }
 .row1{
 
@@ -21,7 +22,7 @@ body{
   background-repeat: no-repeat;
   background-size:cover;
   height: auto;
-  width:60%;
+  
   color: white;
   font-size: 20px;
 }
@@ -38,5 +39,5 @@ body{
 }
 .bean{
   float: right;
-  
+
 }
