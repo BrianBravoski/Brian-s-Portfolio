@@ -4,7 +4,7 @@
 	    <meta charset="utf-8" />
 	    <title> Kemboi's Portfolio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	    <link href="css/portfolio.css" rel="stylesheet" type="text/css">
@@ -15,22 +15,40 @@
     	</header>
       <nav class="top_menu">
     		<ul>
-    			<li>About me </li>
-    			<li>Interest and hobbies</li>
-    			<li>Let's get in touch</li>
+    			<li><a href=#>About me</a> </li>
+    			<li><a href=#>Interest and hobbies</a></li>
+    			<li><a href=#>Let's get in touch</a></li>
     		</ul>
     	</nav>
-      <div class="row1" >
+      <div class="row">
         <h2>About me</h2>
+        <div class="col-md-8">
           <p>I am not the most interesting guy (Unless you want to talk about videogames and interesting factoids :))<p>
           <p> I am a huge Arsenal fan. Football for life. Rugby is also interesting.</p>
-          <p> Still trying out programming as a hobby and I want to take it up as a career<br><img src="images/mr-bean.jpg" height="300px" class="bean"></p>
+          <p> Still trying out programming as a hobby and I want to take it up as a career</p>
 
-          </div>
-
-
-
+        </div>
+          <div class="col-md-4"><img src="images/mr-bean.jpg" height="300px" class="bean"></div>
       </div>
+      <aside class="side">
+        <h2>Contact me!! Please(Am bored(;)<h2>
+          <form class="form">
+                   <div class="form-group">
+                       <h4>Name</h4>
+                       <input type="text" class="form-control" id="name" placeholder="Enter your Name"> </div>
+                   <div class="form-group">
+                       <h4>Email</h4>
+                       <input type="email" class="form-control" id="email" placeholder="Enter your Email Adress"> </div>
+                   <div class="form-group">
+                       <h4>Your Message</h4>
+                       <textarea id="message" cols="30" rows="10" class="form-control"></textarea>
+                   </div>
+                   <button class="btn">Submit</button>
+               </form>
+      </aside>
+      <footer class="footer">
+			Copyright 2017 Brian Kemboi
+		</footer>
 
     </body>
 </html>

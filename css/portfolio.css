@@ -1,9 +1,6 @@
-body{
-  background-image: url("../images/giphy.gif");
-  background-size: cover;
-}
+
 .top_menu{
-	background-color: #2471a3;
+	background-color: black;
 	color: white;
   width: auto;
   font-size: 40px;
@@ -16,22 +13,12 @@ body{
   	text-align:center;
     font-size: 40px;
   }
-.row1{
-
-  background-image: url("../images/thunder.jpg") ;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: auto;
-  
-  color: white;
-  font-size: 20px;
-}
 .eve{
   float: left;
 
 }
 .row{
-  width: 50%;
+  width: auto;
   background-image:url("../images/thunder.jpg");
   background-size:cover;
   color: red  ;
@@ -40,4 +27,15 @@ body{
 .bean{
   float: right;
 
+}
+.side{
+  border: 1px solid grey;
+
+}
+.footer{
+	clear:both;
+	text-align:center;
+	border-top: 2px solid red;
+	padding:20px;
+	background-color:pink;
 }
