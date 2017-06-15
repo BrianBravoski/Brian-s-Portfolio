@@ -13,9 +13,16 @@ p {
 }
 
 .bg-1 {
-  background-image:url("../images/northenlights.jpg");
+  background-image:url("../images/brian.jpg");
   background-size: cover;
   color: #ffffff;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-position: center;
+  height: 500px;
+  text-align: right;
+  font-size: 40px;
+
 }
 
 .bg-2 {
